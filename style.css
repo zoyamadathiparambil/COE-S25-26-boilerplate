@@ -1,0 +1,54 @@
+/* Importing google font */
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+
+/* styling the entire document using universal selector and removed the preset styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling the body element and setting the backgroudn image to it */
+body {
+  font-family: "Exo 2", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background: url("https://i1.faceprep.in/ProGrad/sky-moon-bg.png");
+  background-size: 100% 100%;
+}
+
+/* Styling the submit button */
+#button {
+  display: block;
+  border-radius: 20px;
+  background-color: #ec7920;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  margin: 40px auto;
+}
+
+/* Styling the h1 (heading tag)*/
+h1 {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 1.6em;
+  width: 280px;
+}
+
+/* Iteration 1: Style the both Astronaut Image using Position property  */
+
+
+/* Iteration 2: Add animation to the astronaut image */
+
+
+/* Iteration 3: Style the form using the position property */
+
+
+/* Iteration 4: Use the display property to the class .block-display to display them as block elements*/
+
+
+/* Iteration 5: Style the label  */
+
+
+/* Iteration 6: Style the input element select, number and text elements using combination selector*/
