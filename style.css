@@ -37,18 +37,62 @@ h1 {
 }
 
 /* Iteration 1: Style the both Astronaut Image using Position property  */
+#astronaut1{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  height: 500px;
+  animation: floating 5s infinite ease-in;
+}
 
+#astronaut2{
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  height: 425px;
+  animation: floating 4s infinite ease-in;
+}
 
 /* Iteration 2: Add animation to the astronaut image */
-
+@keyframes floating{
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(30px);
+  }
+}
 
 /* Iteration 3: Style the form using the position property */
-
+form{
+  position: absolute;
+  top: 15%;
+  left: 65%;
+  background-color: white;
+  width: 450px;
+  padding: 0px 75px;
+  border-radius: 5px;
+}
 
 /* Iteration 4: Use the display property to the class .block-display to display them as block elements*/
-
+.block-display{
+  display: block;
+}
 
 /* Iteration 5: Style the label  */
+label{
+  font-size: 16px;
+  margin: 20px 0px 4px 0px;
+}
 
+.rent-label{
+  margin-right: 20px;
+}
 
 /* Iteration 6: Style the input element select, number and text elements using combination selector*/
+input[type=number] input[type=email],select{
+  width: 300px;
+  height: 40px;
+  border: 1px solid black;
+  padding: 0 5px;
+}
